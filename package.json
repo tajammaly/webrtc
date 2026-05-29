@@ -1,0 +1,15 @@
+{
+  "name": "custom-peerjs-server",
+  "version": "1.0.0",
+  "description": "Custom signaling server for live surgical feeds",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js"
+  },
+  "dependencies": {
+    "peer": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
